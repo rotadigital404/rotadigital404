@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(to right, #0077cc, #00aaff);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cc5200;
+}
+
+.about, .services, .cta {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.services li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #20232a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
